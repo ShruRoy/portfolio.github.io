@@ -1,0 +1,75 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>PORTFOLIO</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>	
+
+	<div class="hero">
+		<nav>
+		
+		<img src="name_logo.png" alt="" id="logo">
+		<ul class=>
+		<li><a href="#">HOME</a></li>
+		<li><a href="#">ABOUT</a></li>
+		<li><a href="#">PORTFOLIO</a></li>
+		<li><a href="#">EDUCATION</a></li>
+		<li><a href="#">CERTIFICATIONS</a></li>
+		</ul>
+		<img src="moon.png" id="icon">
+		
+		</nav>
+		
+		<div class="detail">
+		<h1>HELLO!<br>This is <span>Shruti Roy</span></h1>
+		<p>Welcome to my official portfolio website 
+			<br> It showcases my overall education and work experience.
+		</p>
+		<a href="#">DOWNLOAD CV</a>	
+		</div>
+		<div class="images">
+			<img src="shape.png" class="shape">
+			<img src="me.png" class="me">
+		</div>
+	</div>
+	
+	<!---------------about----------->	
+	<div id="about">
+		<div class="container">
+			<div class="row">
+			<div class="about-col-1"> <img src="me2.jpg"> </div>	
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p>I would describe myself as a computer science student 
+				   who is passionate about learning new programming languages and technologies.
+				   I am always looking for new challenges and ways to improve my skills. 
+				   I am a quick learner and enjoy working on projects that are both challenging and rewarding.
+				   I am flexible, reliable and possess excellent time keeping skills.
+				   I am an enthusiastic, self-motivated, reliable, responsible and hard working person.
+				   I am a mature team worker and adaptable to all challenging situations.
+				   I am able to work well both in a team environment as well as using own initiative.
+				</p>
+				
+	
+<!---------------dark mode-------------------->	
+
+<script>
+	var icon=document.getElementById("icon");
+	
+	icon.onclick=function(){
+	document.body.classList.toggle("dark-theme");
+	if(document.body.classList.contains("dark-theme"))
+	{icon.src="sun.png";
+	 logo.src="name_logo2.png";
+	}
+	else{
+	icon.src="moon.png";
+	logo.src="name_logo.png";
+	}
+	}
+	
+</script>	
+</body>
+</html>
